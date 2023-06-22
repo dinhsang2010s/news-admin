@@ -1,0 +1,20 @@
+.table-preview {
+  // tr {
+  //   background: var(--bg-component-color) !important;
+  // }
+  .ant-table-body {
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: var(--bg-component-color);
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-color);
+    }
+  }
+}
